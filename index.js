@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 function takeANumber(deliLine, name) {
   deliLine.push(name)
   return "Welcome, " + name + ". You are number " + parseInt(deliLine.indexOf(name)+1) + " in line."
-=======
+}
 //${topic}
 
 function takeANumber(deliLine, name) {
   deliLine.push(name)
   return "Welcome, ${name}. You are number ${parseInt(deliLine.indexOf(name)+1)} in line."
->>>>>>> 68055c2cb07d0f3b0e7bd5eecb1f80590247c205
+
 }
 
 function nowServing(deliLine) {
